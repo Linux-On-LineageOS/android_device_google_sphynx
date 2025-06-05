@@ -131,3 +131,4 @@ $(call inherit-product, build/target/product/vboot.mk)
 # WiFi
 PRODUCT_PACKAGES += \
     WifiOverlay
+$(call inherit-product, vendor/lindroid/lindroid.mk)
